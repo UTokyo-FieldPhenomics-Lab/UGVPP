@@ -16,7 +16,7 @@ This repository contains supplementary files for the article "Development of a h
 ### Images
 Files in `images/` are the images captured by the on-board cameras. They are from three cameras and can be used for 3D reconstruction with SfM software such as [COLMAP](https://colmap.github.io/) (open) and [Metashape](https://www.agisoft.com/) (commercial).
 
-### Hot to setup?
+### How to setup?
 First, get [OpenKAI](https://github.com/yankailab/OpenKAI) for the on-board computer (NVIDIA Jetson series).
 
 ```
