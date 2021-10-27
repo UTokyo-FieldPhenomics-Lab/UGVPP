@@ -29,14 +29,13 @@ Then copy the setting file `config/apRover_KU.kiss` to `OpenKAI/kiss/app/` by
 cp UGVPP/config/apRover_KU.kiss OpenKAI/kiss/app/
 ```
 
-To execute setup of OpenKAI, run the following. Necessary packages, including the one needed to recognize fiduciary markers, are automatically installed. Note that this process requires internet connection.
+To execute setup of OpenKAI, run the commands in the following shellscript. Necessary packages, including the one needed to recognize fiduciary markers, are automatically installed. Note that this process requires internet connection. However, you should run the commands in the script on your terminal rather than directly executing the entire file. You have to reboot the computer several times during this process.
 
 ```
 OpenKAI/sh/Setup/OpenKAI_dev_setup.sh
 ```
 
-When you encounter an error in this step, edit `OpenKAI_dev_setup.sh` and remove steps that are commented as "optional", except you have to keep "Chilitag" section and sections above it for marker recognition. Nonetheless, it may be helpful to remove all optional sections and try installing. Also, to pinpoint the issue, copy commands from `OpenKAI_dev_setup.sh` and run them on your terminal one by one.
-
+When you encounter an error in this, Omit steps that are commented as "optional", except you have to keep "Chilitag" section and sections immediately above it for marker recognition. Nonetheless, it may be helpful to remove all optional sections and try installing.
 
 
 
