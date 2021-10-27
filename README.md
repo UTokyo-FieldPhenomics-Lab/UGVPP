@@ -37,16 +37,18 @@ OpenKAI/sh/Setup/OpenKAI_dev_setup.sh
 
 When you encounter an error in this, Omit steps that are commented as "optional", except you have to keep "Chilitag" section and sections immediately above it for marker recognition. Nonetheless, it may be helpful to remove all optional sections and try installing.
 
-To run OpenKAI to start controlling the UGV, run
+To run OpenKAI to start controlling the UGV, find
 
 ```
 OpenKAI/ok.sh
 ```
 
-This file contains the path to the config file. Open it and edit it to `config/apRover_KU.kiss` or some other name in case you renamed your setting file.
+This file contains the path to the config file. Open it and edit it to `config/apRover_KU.kiss` or some other name in case you renamed your setting file. After editing it as needed, reboot the computer and `ok.sh` is automatically run upon booting.
 
-By default, the on-board computer is configured to run `ok.sh` upon booting. This may be inconvenient when you want to run it manually and configure parameters, because you have to restart `ok.sh` to reload the config file. In that case, rename it by `mv ok.sh ok_.sh` and run `ok_.sh` instead. This way, you can stop and re-run it as you like without rebooting the whole computer.
+### Tuning
+To help tuning the config parameters for your purpose, you can use `OpenKAI/sh/Setup/Gstreamer/gst.sh`. Note that this is to be used with your personal computer (preferably Ubuntu, but may work in other environments), not the on-board computer of the vehicle. Install [GStreamer](https://gstreamer.freedesktop.org/) first and then run `OpenKAI/sh/Setup/Gstreamer/gst.sh` when connnected to the on-board computer via network. You can see the input from the navigation camera and real-time marker detection results.
 
+By default, the on-board computer is configured to run `ok.sh` upon booting. This may be inconvenient when you want to run it manually and configure parameters, because you have to restart `ok.sh` to reload the config file. In that case, rename it by `mv ok.sh ok_.sh` and run `ok_.sh` instead. This way, you can stop and re-run it as you like without rebooting the whole computer. Note that you must not run multiple instances of `ok.sh`, which causes overload to the computer and the responses will be delayed, leading to unexpected behaviors.
 
 ## Contributors
 Ken Kuroki & Wei Guo
