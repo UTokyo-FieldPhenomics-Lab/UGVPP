@@ -3,7 +3,7 @@
 This repository contains supplementary files for the article "Development of a high-throughput field phenotyping rover optimized for size-limited breeding fields as open hardware" (in prep)
 
 ## Article
-(to be added)
+https://www.jstage.jst.go.jp/article/jsbbs/72/1/72_21059/_article
 
 ## Contents
 
