@@ -1,8 +1,9 @@
 # UGVPP
 
-This repository contains supplementary files for the article "Development of a high-throughput field phenotyping rover optimized for size-limited breeding fields as open hardware" (in prep)
+This repository contains supplementary files for the article:  
+Kuroki, Ken; Yan, Kai; Iwata, Hiroyoshi; Shimizu, Kentaro K; Tameshige, Toshiaki; Nasuda, Shuhei; Guo, Wei; 	Development of a high-throughput field phenotyping rover optimized for size-limited breeding fields as open-source hardware	Breeding Science,72,1,66-74,2022.	Japanese Society of Breeding.
 
-## Article
+## Article link
 https://www.jstage.jst.go.jp/article/jsbbs/72/1/72_21059/_article
 
 ## Contents
